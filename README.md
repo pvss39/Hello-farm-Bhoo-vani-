@@ -54,14 +54,6 @@ The gap between what's possible technically and what actually reaches farmers in
 
 ---
 
-## AI Assistance
-
-I used Claude (Anthropic's AI assistant) to help with specific deployment modifications: fixing the Streamlit Cloud deployment, adding the "Try It Yourself" demo page, and resolving cloud-environment compatibility issues. These were implementation-level fixes on top of a working system I had already built.
-
-Claude did not design or originate this project.
-
----
-
 ## NDVI Health Reference
 
 | NDVI | Score | Status |
