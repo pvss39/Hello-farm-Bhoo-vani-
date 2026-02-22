@@ -1,0 +1,1 @@
+Set-Location c:\Users\pavan\Hello_Farm; Start-Process -FilePath c:\Users\pavan\Hello_Farm\.venv\Scripts\python.exe -ArgumentList c:\Users\pavan\Hello_Farm\test_satellite_notification.py -WorkingDirectory c:\Users\pavan\Hello_Farm -Wait -NoNewWindow -RedirectStandardOutput c:\Users\pavan\Hello_Farm\test_out.txt -RedirectStandardError c:\Users\pavan\Hello_Farm\test_err.txt

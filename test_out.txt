@@ -1,0 +1,47 @@
+[OK] Database tables initialized
+Plots in DB: 3
+  [1] Thurpu Polam  lat=16.37000 lon=80.72000  boundary=False
+  [2] Athota Road Polam  lat=16.32210 lon=80.66724  boundary=False
+  [3] Munnagi Road Polam  lat=16.36800 lon=80.71800  boundary=False
+
+Cleared satellite_notifications for Athota Road Polam — will re-trigger now.
+
+Initialising Hello Farm Push Server...
+[OK] Database tables initialized
+[MultiSat] Google Earth Engine: connected
+[WhatsApp] Mode: twilio
+
+============================================================
+SATELLITE CHECK  2026-02-12 12:35 IST
+============================================================
+
+Checking Thurpu Polam…
+
+[MultiSat] Searching 16.3700, 80.7200 | 2026-02-05 → 2026-02-12
+  Sentinel-2: 2026-02-08 NDVI=0.210 clouds=0%
+  Landsat-9 : 2026-02-05 NDVI=0.142 clouds=3%
+[MultiSat] Selected: Sentinel-2B | NDVI=0.210 | confidence=80%
+  Already notified for 2026-02-08
+
+Checking Athota Road Polam…
+
+[MultiSat] Searching 16.3221, 80.6672 | 2026-02-05 → 2026-02-12
+  Sentinel-2: 2026-02-08 NDVI=0.532 clouds=0%
+  Landsat-9 : 2026-02-05 NDVI=0.241 clouds=3%
+[MultiSat] Selected: Sentinel-2B | NDVI=0.532 | confidence=80%
+  New data from Sentinel-2B (2026-02-08)
+[MultiSat] NDVI image saved: data\images\ndvi_20260212_020541.jpg
+[WhatsApp] Cloudinary upload OK: https://res.cloudinary.com/dpgv2yvk7/image/upload/v1770879943/hello_farm/ivbr4o8mypl9bvek6lxe.jpg
+[WhatsApp] Cloudinary upload OK: https://res.cloudinary.com/dpgv2yvk7/image/upload/v1770879945/hello_farm/e3g2oiocbrodgfnsvqvq.jpg
+[WhatsApp] Delivered to 2/2 numbers
+  → +919848430152: sent
+  → +918498842928: sent
+  Notification sent for Athota Road Polam
+
+Checking Munnagi Road Polam…
+
+[MultiSat] Searching 16.3680, 80.7180 | 2026-02-05 → 2026-02-12
+  Sentinel-2: 2026-02-08 NDVI=0.166 clouds=0%
+  Landsat-9 : 2026-02-05 NDVI=0.143 clouds=3%
+[MultiSat] Selected: Sentinel-2B | NDVI=0.166 | confidence=80%
+  Already notified for 2026-02-08
